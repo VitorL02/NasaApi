@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url('assets/space-background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h1 {
+    margin: 10px;
+}
+
+#date-search {
+    padding: 12px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 0 none;
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+#image-day {
+    height: 400px;
+    width: 650px;
+    border-radius: 7px;
+    align-items: center;
+}
+
+#infos {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#information {
+    padding: 20px;
+    text-align: justify;
+}
+
+.card {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.search {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
