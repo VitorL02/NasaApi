@@ -16,7 +16,6 @@ const fetchNasaApi = async (date) => {
 
         if(request.status === 200){
         const data = await request.json();
-        console.log(data);
         createCard(data.url,data.title,data.explanation,data.copyright);
         return data;
         }else{
